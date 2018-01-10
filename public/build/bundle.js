@@ -950,6 +950,26 @@ var _reactDom = __webpack_require__(18);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+var _banner = __webpack_require__(27);
+
+var _banner2 = _interopRequireDefault(_banner);
+
+var _section_with_side_look = __webpack_require__(28);
+
+var _section_with_side_look2 = _interopRequireDefault(_section_with_side_look);
+
+var _section_with_up_look = __webpack_require__(29);
+
+var _section_with_up_look2 = _interopRequireDefault(_section_with_up_look);
+
+var _sidebar = __webpack_require__(30);
+
+var _sidebar2 = _interopRequireDefault(_sidebar);
+
+var _header = __webpack_require__(37);
+
+var _header2 = _interopRequireDefault(_header);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -979,780 +999,13 @@ var App = function (_Component) {
           _react2.default.createElement(
             'div',
             { className: 'inner' },
-            _react2.default.createElement(
-              'header',
-              { id: 'header' },
-              _react2.default.createElement(
-                'a',
-                { href: 'index.html', className: 'logo' },
-                _react2.default.createElement(
-                  'strong',
-                  null,
-                  'Editorial'
-                ),
-                ' by HTML5 UP'
-              ),
-              _react2.default.createElement(
-                'ul',
-                { className: 'icons' },
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'icon fa-twitter' },
-                    _react2.default.createElement(
-                      'span',
-                      { className: 'label' },
-                      'Twitter'
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'icon fa-facebook' },
-                    _react2.default.createElement(
-                      'span',
-                      { className: 'label' },
-                      'Facebook'
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'icon fa-snapchat-ghost' },
-                    _react2.default.createElement(
-                      'span',
-                      { className: 'label' },
-                      'Snapchat'
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'icon fa-instagram' },
-                    _react2.default.createElement(
-                      'span',
-                      { className: 'label' },
-                      'Instagram'
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'icon fa-medium' },
-                    _react2.default.createElement(
-                      'span',
-                      { className: 'label' },
-                      'Medium'
-                    )
-                  )
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'section',
-              { id: 'banner' },
-              _react2.default.createElement(
-                'div',
-                { className: 'content' },
-                _react2.default.createElement(
-                  'header',
-                  null,
-                  _react2.default.createElement(
-                    'h1',
-                    null,
-                    'Hi, I\u2019m Editorial',
-                    _react2.default.createElement('br', null),
-                    'by HTML5 UP'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'A free and fully responsive site template'
-                  )
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.'
-                ),
-                _react2.default.createElement(
-                  'ul',
-                  { className: 'actions' },
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    _react2.default.createElement(
-                      'a',
-                      { href: '#', className: 'button big' },
-                      'Learn More'
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                'span',
-                { className: 'image object' },
-                _react2.default.createElement('img', { src: 'images/pic10.jpg', alt: '' })
-              )
-            ),
-            _react2.default.createElement(
-              'section',
-              null,
-              _react2.default.createElement(
-                'header',
-                { className: 'major' },
-                _react2.default.createElement(
-                  'h2',
-                  null,
-                  'Erat lacinia'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'features' },
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement('span', { className: 'icon fa-diamond' }),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'content' },
-                    _react2.default.createElement(
-                      'h3',
-                      null,
-                      'Portitor ullamcorper'
-                    ),
-                    _react2.default.createElement(
-                      'p',
-                      null,
-                      'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement('span', { className: 'icon fa-paper-plane' }),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'content' },
-                    _react2.default.createElement(
-                      'h3',
-                      null,
-                      'Sapien veroeros'
-                    ),
-                    _react2.default.createElement(
-                      'p',
-                      null,
-                      'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement('span', { className: 'icon fa-rocket' }),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'content' },
-                    _react2.default.createElement(
-                      'h3',
-                      null,
-                      'Quam lorem ipsum'
-                    ),
-                    _react2.default.createElement(
-                      'p',
-                      null,
-                      'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement('span', { className: 'icon fa-signal' }),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'content' },
-                    _react2.default.createElement(
-                      'h3',
-                      null,
-                      'Sed magna finibus'
-                    ),
-                    _react2.default.createElement(
-                      'p',
-                      null,
-                      'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-                    )
-                  )
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'section',
-              null,
-              _react2.default.createElement(
-                'header',
-                { className: 'major' },
-                _react2.default.createElement(
-                  'h2',
-                  null,
-                  'Ipsum sed dolor'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'posts' },
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'image' },
-                    _react2.default.createElement('img', { src: 'images/pic01.jpg', alt: '' })
-                  ),
-                  _react2.default.createElement(
-                    'h3',
-                    null,
-                    'Interdum aenean'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-                  ),
-                  _react2.default.createElement(
-                    'ul',
-                    { className: 'actions' },
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#', className: 'button' },
-                        'More'
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'image' },
-                    _react2.default.createElement('img', { src: 'images/pic02.jpg', alt: '' })
-                  ),
-                  _react2.default.createElement(
-                    'h3',
-                    null,
-                    'Nulla amet dolore'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-                  ),
-                  _react2.default.createElement(
-                    'ul',
-                    { className: 'actions' },
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#', className: 'button' },
-                        'More'
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'image' },
-                    _react2.default.createElement('img', { src: 'images/pic03.jpg', alt: '' })
-                  ),
-                  _react2.default.createElement(
-                    'h3',
-                    null,
-                    'Tempus ullamcorper'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-                  ),
-                  _react2.default.createElement(
-                    'ul',
-                    { className: 'actions' },
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#', className: 'button' },
-                        'More'
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'image' },
-                    _react2.default.createElement('img', { src: 'images/pic04.jpg', alt: '' })
-                  ),
-                  _react2.default.createElement(
-                    'h3',
-                    null,
-                    'Sed etiam facilis'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-                  ),
-                  _react2.default.createElement(
-                    'ul',
-                    { className: 'actions' },
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#', className: 'button' },
-                        'More'
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'image' },
-                    _react2.default.createElement('img', { src: 'images/pic05.jpg', alt: '' })
-                  ),
-                  _react2.default.createElement(
-                    'h3',
-                    null,
-                    'Feugiat lorem aenean'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-                  ),
-                  _react2.default.createElement(
-                    'ul',
-                    { className: 'actions' },
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#', className: 'button' },
-                        'More'
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'image' },
-                    _react2.default.createElement('img', { src: 'images/pic06.jpg', alt: '' })
-                  ),
-                  _react2.default.createElement(
-                    'h3',
-                    null,
-                    'Amet varius aliquam'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-                  ),
-                  _react2.default.createElement(
-                    'ul',
-                    { className: 'actions' },
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#', className: 'button' },
-                        'More'
-                      )
-                    )
-                  )
-                )
-              )
-            )
+            _react2.default.createElement(_header2.default, null),
+            _react2.default.createElement(_banner2.default, null),
+            _react2.default.createElement(_section_with_side_look2.default, null),
+            _react2.default.createElement(_section_with_up_look2.default, null)
           )
         ),
-        _react2.default.createElement(
-          'div',
-          { id: 'sidebar' },
-          _react2.default.createElement(
-            'div',
-            { className: 'inner' },
-            _react2.default.createElement(
-              'section',
-              { id: 'search', className: 'alt' },
-              _react2.default.createElement(
-                'form',
-                { method: 'post', action: '#' },
-                _react2.default.createElement('input', { type: 'text', name: 'query', id: 'query', placeholder: 'Search' })
-              )
-            ),
-            _react2.default.createElement(
-              'nav',
-              { id: 'menu' },
-              _react2.default.createElement(
-                'header',
-                { className: 'major' },
-                _react2.default.createElement(
-                  'h2',
-                  null,
-                  'Menu'
-                )
-              ),
-              _react2.default.createElement(
-                'ul',
-                null,
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: 'index.html' },
-                    'Homepage'
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: 'generic.html' },
-                    'Generic'
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: 'elements.html' },
-                    'Elements'
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'span',
-                    { className: 'opener' },
-                    'Submenu'
-                  ),
-                  _react2.default.createElement(
-                    'ul',
-                    null,
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#' },
-                        'Lorem Dolor'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#' },
-                        'Ipsum Adipiscing'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#' },
-                        'Tempus Magna'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#' },
-                        'Feugiat Veroeros'
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#' },
-                    'Etiam Dolore'
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#' },
-                    'Adipiscing'
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'span',
-                    { className: 'opener' },
-                    'Another Submenu'
-                  ),
-                  _react2.default.createElement(
-                    'ul',
-                    null,
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#' },
-                        'Lorem Dolor'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#' },
-                        'Ipsum Adipiscing'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#' },
-                        'Tempus Magna'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      _react2.default.createElement(
-                        'a',
-                        { href: '#' },
-                        'Feugiat Veroeros'
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#' },
-                    'Maximus Erat'
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#' },
-                    'Sapien Mauris'
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#' },
-                    'Amet Lacinia'
-                  )
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'section',
-              null,
-              _react2.default.createElement(
-                'header',
-                { className: 'major' },
-                _react2.default.createElement(
-                  'h2',
-                  null,
-                  'Ante interdum'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'mini-posts' },
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'image' },
-                    _react2.default.createElement('img', { src: 'images/pic07.jpg', alt: '' })
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.'
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'image' },
-                    _react2.default.createElement('img', { src: 'images/pic08.jpg', alt: '' })
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.'
-                  )
-                ),
-                _react2.default.createElement(
-                  'article',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'image' },
-                    _react2.default.createElement('img', { src: 'images/pic09.jpg', alt: '' })
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.'
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                'ul',
-                { className: 'actions' },
-                _react2.default.createElement(
-                  'li',
-                  null,
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#', className: 'button' },
-                    'More'
-                  )
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'section',
-              null,
-              _react2.default.createElement(
-                'header',
-                { className: 'major' },
-                _react2.default.createElement(
-                  'h2',
-                  null,
-                  'Get in touch'
-                )
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
-                'Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.'
-              ),
-              _react2.default.createElement(
-                'ul',
-                { className: 'contact' },
-                _react2.default.createElement(
-                  'li',
-                  { className: 'fa-envelope-o' },
-                  _react2.default.createElement(
-                    'a',
-                    { href: '#' },
-                    'information@untitled.tld'
-                  )
-                ),
-                _react2.default.createElement(
-                  'li',
-                  { className: 'fa-phone' },
-                  '(000) 000-0000'
-                ),
-                _react2.default.createElement(
-                  'li',
-                  { className: 'fa-home' },
-                  '1234 Somewhere Road #8254',
-                  _react2.default.createElement('br', null),
-                  'Nashville, TN 00000-0000'
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'footer',
-              { id: 'footer' },
-              _react2.default.createElement(
-                'p',
-                { className: 'copyright' },
-                '\xA9 Untitled. All rights reserved. Demo Images:',
-                _react2.default.createElement(
-                  'a',
-                  { href: 'https://unsplash.com' },
-                  'Unsplash'
-                ),
-                '. Design: ',
-                _react2.default.createElement(
-                  'a',
-                  { href: 'https://html5up.net' },
-                  'HTML5 UP'
-                ),
-                '.'
-              )
-            )
-          )
-        )
+        _react2.default.createElement(_sidebar2.default, null)
       );
     }
   }]);
@@ -19069,6 +18322,1079 @@ function camelize(string) {
 }
 
 module.exports = camelize;
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Banner = function Banner() {
+  return _react2.default.createElement(
+    "section",
+    { id: "banner" },
+    _react2.default.createElement(
+      "div",
+      { className: "content" },
+      _react2.default.createElement(
+        "header",
+        null,
+        _react2.default.createElement(
+          "h1",
+          null,
+          "Hi, I\u2019m Editorial",
+          _react2.default.createElement("br", null),
+          "by HTML5 UP"
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "A free and fully responsive site template"
+        )
+      ),
+      _react2.default.createElement(
+        "p",
+        null,
+        "Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam."
+      ),
+      _react2.default.createElement(
+        "ul",
+        { className: "actions" },
+        _react2.default.createElement(
+          "li",
+          null,
+          _react2.default.createElement(
+            "a",
+            { href: "#", className: "button big" },
+            "Learn More"
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      "span",
+      { className: "image object" },
+      _react2.default.createElement("img", { src: "images/pic10.jpg", alt: "" })
+    )
+  );
+};
+
+exports.default = Banner;
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SectionWithSideLook = function (_Component) {
+  _inherits(SectionWithSideLook, _Component);
+
+  function SectionWithSideLook() {
+    _classCallCheck(this, SectionWithSideLook);
+
+    return _possibleConstructorReturn(this, (SectionWithSideLook.__proto__ || Object.getPrototypeOf(SectionWithSideLook)).apply(this, arguments));
+  }
+
+  _createClass(SectionWithSideLook, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "section",
+        null,
+        _react2.default.createElement(
+          "header",
+          { className: "major" },
+          _react2.default.createElement(
+            "h2",
+            null,
+            "Erat lacinia"
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "features" },
+          _react2.default.createElement(
+            "article",
+            null,
+            _react2.default.createElement("span", { className: "icon fa-diamond" }),
+            _react2.default.createElement(
+              "div",
+              { className: "content" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "Portitor ullamcorper"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "article",
+            null,
+            _react2.default.createElement("span", { className: "icon fa-paper-plane" }),
+            _react2.default.createElement(
+              "div",
+              { className: "content" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "Sapien veroeros"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "article",
+            null,
+            _react2.default.createElement("span", { className: "icon fa-rocket" }),
+            _react2.default.createElement(
+              "div",
+              { className: "content" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "Quam lorem ipsum"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "article",
+            null,
+            _react2.default.createElement("span", { className: "icon fa-signal" }),
+            _react2.default.createElement(
+              "div",
+              { className: "content" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "Sed magna finibus"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return SectionWithSideLook;
+}(_react.Component);
+
+exports.default = SectionWithSideLook;
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SectionWithUpLook = function (_Component) {
+  _inherits(SectionWithUpLook, _Component);
+
+  function SectionWithUpLook() {
+    _classCallCheck(this, SectionWithUpLook);
+
+    return _possibleConstructorReturn(this, (SectionWithUpLook.__proto__ || Object.getPrototypeOf(SectionWithUpLook)).apply(this, arguments));
+  }
+
+  _createClass(SectionWithUpLook, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "section",
+        null,
+        _react2.default.createElement(
+          "header",
+          { className: "major" },
+          _react2.default.createElement(
+            "h2",
+            null,
+            "Ipsum sed dolor"
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "posts" },
+          _react2.default.createElement(
+            "article",
+            null,
+            _react2.default.createElement(
+              "a",
+              { href: "#", className: "image" },
+              _react2.default.createElement("img", { src: "images/pic01.jpg", alt: "" })
+            ),
+            _react2.default.createElement(
+              "h3",
+              null,
+              "Interdum aenean"
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: "actions" },
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "button" },
+                  "More"
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "article",
+            null,
+            _react2.default.createElement(
+              "a",
+              { href: "#", className: "image" },
+              _react2.default.createElement("img", { src: "images/pic02.jpg", alt: "" })
+            ),
+            _react2.default.createElement(
+              "h3",
+              null,
+              "Nulla amet dolore"
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: "actions" },
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "button" },
+                  "More"
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "article",
+            null,
+            _react2.default.createElement(
+              "a",
+              { href: "#", className: "image" },
+              _react2.default.createElement("img", { src: "images/pic03.jpg", alt: "" })
+            ),
+            _react2.default.createElement(
+              "h3",
+              null,
+              "Tempus ullamcorper"
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: "actions" },
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "button" },
+                  "More"
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "article",
+            null,
+            _react2.default.createElement(
+              "a",
+              { href: "#", className: "image" },
+              _react2.default.createElement("img", { src: "images/pic04.jpg", alt: "" })
+            ),
+            _react2.default.createElement(
+              "h3",
+              null,
+              "Sed etiam facilis"
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: "actions" },
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "button" },
+                  "More"
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "article",
+            null,
+            _react2.default.createElement(
+              "a",
+              { href: "#", className: "image" },
+              _react2.default.createElement("img", { src: "images/pic05.jpg", alt: "" })
+            ),
+            _react2.default.createElement(
+              "h3",
+              null,
+              "Feugiat lorem aenean"
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: "actions" },
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "button" },
+                  "More"
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "article",
+            null,
+            _react2.default.createElement(
+              "a",
+              { href: "#", className: "image" },
+              _react2.default.createElement("img", { src: "images/pic06.jpg", alt: "" })
+            ),
+            _react2.default.createElement(
+              "h3",
+              null,
+              "Amet varius aliquam"
+            ),
+            _react2.default.createElement(
+              "p",
+              null,
+              "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+            ),
+            _react2.default.createElement(
+              "ul",
+              { className: "actions" },
+              _react2.default.createElement(
+                "li",
+                null,
+                _react2.default.createElement(
+                  "a",
+                  { href: "#", className: "button" },
+                  "More"
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return SectionWithUpLook;
+}(_react.Component);
+
+exports.default = SectionWithUpLook;
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+                value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _side_menu = __webpack_require__(31);
+
+var _side_menu2 = _interopRequireDefault(_side_menu);
+
+var _section_sidebar = __webpack_require__(33);
+
+var _section_sidebar2 = _interopRequireDefault(_section_sidebar);
+
+var _being_in_touch = __webpack_require__(34);
+
+var _being_in_touch2 = _interopRequireDefault(_being_in_touch);
+
+var _footer = __webpack_require__(35);
+
+var _footer2 = _interopRequireDefault(_footer);
+
+var _search_form = __webpack_require__(36);
+
+var _search_form2 = _interopRequireDefault(_search_form);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Sidebar = function (_Component) {
+                _inherits(Sidebar, _Component);
+
+                function Sidebar() {
+                                _classCallCheck(this, Sidebar);
+
+                                return _possibleConstructorReturn(this, (Sidebar.__proto__ || Object.getPrototypeOf(Sidebar)).apply(this, arguments));
+                }
+
+                _createClass(Sidebar, [{
+                                key: 'render',
+                                value: function render() {
+                                                return _react2.default.createElement(
+                                                                'div',
+                                                                { id: 'sidebar' },
+                                                                _react2.default.createElement(
+                                                                                'div',
+                                                                                { className: 'inner' },
+                                                                                _react2.default.createElement(_search_form2.default, null),
+                                                                                _react2.default.createElement(_side_menu2.default, null),
+                                                                                _react2.default.createElement(_section_sidebar2.default, null),
+                                                                                _react2.default.createElement(_being_in_touch2.default, null),
+                                                                                _react2.default.createElement(_footer2.default, null)
+                                                                )
+                                                );
+                                }
+                }]);
+
+                return Sidebar;
+}(_react.Component);
+
+exports.default = Sidebar;
+
+/***/ }),
+/* 31 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _side_sub_menus = __webpack_require__(32);
+
+var _side_sub_menus2 = _interopRequireDefault(_side_sub_menus);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var SideMenue = function SideMenue() {
+  return _react2.default.createElement(
+    'nav',
+    { id: 'menu' },
+    _react2.default.createElement(
+      'header',
+      { className: 'major' },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Menu'
+      )
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'index.html' },
+          'Homepage'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'generic.html' },
+          'Generic'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'elements.html' },
+          'Elements'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(_side_sub_menus2.default, null)
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Etiam Dolore'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Adipiscing'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(_side_sub_menus2.default, null)
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Maximus Erat'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Sapien Mauris'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: '#' },
+          'Amet Lacinia'
+        )
+      )
+    )
+  );
+};
+
+exports.default = SideMenue;
+
+/***/ }),
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var SideSubMenu = function SideSubMenu() {
+  return _react2.default.createElement(
+    "div",
+    null,
+    _react2.default.createElement(
+      "span",
+      { className: "opener" },
+      "Submenu"
+    ),
+    _react2.default.createElement(
+      "ul",
+      null,
+      _react2.default.createElement(
+        "li",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#" },
+          "Lorem Dolor"
+        )
+      ),
+      _react2.default.createElement(
+        "li",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#" },
+          "Ipsum Adipiscing"
+        )
+      ),
+      _react2.default.createElement(
+        "li",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#" },
+          "Tempus Magna"
+        )
+      ),
+      _react2.default.createElement(
+        "li",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#" },
+          "Feugiat Veroeros"
+        )
+      )
+    )
+  );
+};
+
+exports.default = SideSubMenu;
+
+/***/ }),
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var SectionSideBar = function SectionSideBar() {
+  return _react2.default.createElement(
+    "section",
+    null,
+    _react2.default.createElement(
+      "header",
+      { className: "major" },
+      _react2.default.createElement(
+        "h2",
+        null,
+        "Ante interdum"
+      )
+    ),
+    _react2.default.createElement(
+      "div",
+      { className: "mini-posts" },
+      _react2.default.createElement(
+        "article",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#", className: "image" },
+          _react2.default.createElement("img", { src: "images/pic07.jpg", alt: "" })
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam."
+        )
+      ),
+      _react2.default.createElement(
+        "article",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#", className: "image" },
+          _react2.default.createElement("img", { src: "images/pic08.jpg", alt: "" })
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam."
+        )
+      ),
+      _react2.default.createElement(
+        "article",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#", className: "image" },
+          _react2.default.createElement("img", { src: "images/pic09.jpg", alt: "" })
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam."
+        )
+      )
+    ),
+    _react2.default.createElement(
+      "ul",
+      { className: "actions" },
+      _react2.default.createElement(
+        "li",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#", className: "button" },
+          "More"
+        )
+      )
+    )
+  );
+};
+
+exports.default = SectionSideBar;
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var BeingInTouch = function BeingInTouch() {
+  return _react2.default.createElement(
+    "section",
+    null,
+    _react2.default.createElement(
+      "header",
+      { className: "major" },
+      _react2.default.createElement(
+        "h2",
+        null,
+        "Get in touch"
+      )
+    ),
+    _react2.default.createElement(
+      "p",
+      null,
+      "Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam."
+    ),
+    _react2.default.createElement(
+      "ul",
+      { className: "contact" },
+      _react2.default.createElement(
+        "li",
+        { className: "fa-envelope-o" },
+        _react2.default.createElement(
+          "a",
+          { href: "#" },
+          "information@untitled.tld"
+        )
+      ),
+      _react2.default.createElement(
+        "li",
+        { className: "fa-phone" },
+        "(000) 000-0000"
+      ),
+      _react2.default.createElement(
+        "li",
+        { className: "fa-home" },
+        "1234 Somewhere Road #8254",
+        _react2.default.createElement("br", null),
+        "Nashville, TN 00000-0000"
+      )
+    )
+  );
+};
+
+exports.default = BeingInTouch;
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Footer = function Footer() {
+    return _react2.default.createElement(
+        "footer",
+        { id: "footer" },
+        _react2.default.createElement(
+            "p",
+            { className: "copyright" },
+            "\xA9 Untitled. All rights reserved. Demo Images:",
+            _react2.default.createElement(
+                "a",
+                { href: "https://unsplash.com" },
+                "Unsplash"
+            ),
+            ". Design: ",
+            _react2.default.createElement(
+                "a",
+                { href: "https://html5up.net" },
+                "HTML5 UP"
+            ),
+            "."
+        )
+    );
+};
+
+exports.default = Footer;
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var SearchForm = function SearchForm() {
+  return _react2.default.createElement(
+    "section",
+    { id: "search", className: "alt" },
+    _react2.default.createElement(
+      "form",
+      { method: "post", action: "#" },
+      _react2.default.createElement("input", { type: "text", name: "query", id: "query", placeholder: "Search" })
+    )
+  );
+};
+
+exports.default = SearchForm;
+
+/***/ }),
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Header = function Header() {
+  return _react2.default.createElement(
+    "header",
+    { id: "header" },
+    _react2.default.createElement(
+      "a",
+      { href: "index.html", className: "logo" },
+      _react2.default.createElement(
+        "strong",
+        null,
+        "Editorial"
+      ),
+      " by HTML5 UP"
+    ),
+    _react2.default.createElement(
+      "ul",
+      { className: "icons" },
+      _react2.default.createElement(
+        "li",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#", className: "icon fa-twitter" },
+          _react2.default.createElement(
+            "span",
+            { className: "label" },
+            "Twitter"
+          )
+        )
+      ),
+      _react2.default.createElement(
+        "li",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#", className: "icon fa-facebook" },
+          _react2.default.createElement(
+            "span",
+            { className: "label" },
+            "Facebook"
+          )
+        )
+      ),
+      _react2.default.createElement(
+        "li",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#", className: "icon fa-snapchat-ghost" },
+          _react2.default.createElement(
+            "span",
+            { className: "label" },
+            "Snapchat"
+          )
+        )
+      ),
+      _react2.default.createElement(
+        "li",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#", className: "icon fa-instagram" },
+          _react2.default.createElement(
+            "span",
+            { className: "label" },
+            "Instagram"
+          )
+        )
+      ),
+      _react2.default.createElement(
+        "li",
+        null,
+        _react2.default.createElement(
+          "a",
+          { href: "#", className: "icon fa-medium" },
+          _react2.default.createElement(
+            "span",
+            { className: "label" },
+            "Medium"
+          )
+        )
+      )
+    )
+  );
+};
+
+exports.default = Header;
 
 /***/ })
 /******/ ]);
